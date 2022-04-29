@@ -1,4 +1,7 @@
 # syntax=docker/dockerfile:1
+#
+# Build stage
+#
 FROM maven:3.5-jdk-8 AS build
 WORKDIR /app
 COPY src /app/src
