@@ -3,9 +3,9 @@ name: Publish Docker image
 on:
   push:
     branches: 
-      -  main 
+      - main 
     tags:
-      - "v*"
+      - v1.*
   pull_request:
     branches: 
       - main
